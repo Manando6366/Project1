@@ -1,0 +1,1255 @@
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.resume_page {
+  box-sizing: border-box;
+  padding: 4.2rem 9.8rem 5rem 10rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #f2f5f9;
+}
+.resume_page .header {
+  margin: 0rem 0.2rem 6.6rem 0rem;
+  width: calc(100% - 0.2rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.resume_page .header .tinotenda_manhando {
+  margin: 0.1rem 100.1rem 0rem 0rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.756000042;
+  color: #000000;
+  font-family: Pacifico, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.resume_page .header .tinotenda_manhando .tinotenda_manhando-sub-0 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.755;
+  color: #000000;
+  font-family: Pacifico, 'Source Sans Pro';
+}
+.resume_page .header .tinotenda_manhando .tinotenda_manhando-sub-1 {
+  background: linear-gradient(180deg, #FF9C1A 0%, #ED250A 100%);
+  background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.755;
+  color: #000000;
+  font-family: Pacifico, 'Source Sans Pro';
+}
+.resume_page .header .tinotenda_manhando .tinotenda_manhando-sub-2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.755;
+  color: #000000;
+  font-family: Pacifico, 'Source Sans Pro';
+}
+.resume_page .header .ph-moon {
+  width: 5.6rem;
+  height: 5.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 5rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group {
+  width: 100%;
+  height: 81rem;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .profile_details {
+  margin-right: 2rem;
+  width: 40rem;
+  height: 80rem;
+  position: relative;
+  box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0);
+  flex-shrink: 0;
+}
+.resume_page .auto_group .profile_details .profile_card {
+  width: 40rem;
+  height: 70rem;
+  position: absolute;
+  left: 0;
+  top: 10rem;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+.resume_page .auto_group .profile_details .contact_card {
+  width: 35rem;
+  height: 35rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 38.4rem;
+  background-color: #f2f5f9;
+  border-radius: 2rem;
+}
+.resume_page .auto_group .profile_details .profile_src {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  left: 9.2rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 2rem;
+}
+.resume_page .auto_group .profile_details .name {
+  width: 23.5rem;
+  height: 3.6rem;
+  position: absolute;
+  left: 8.3rem;
+  top: 21.4rem;
+  overflow: hidden;
+  font-size: 2.842rem;
+  font-weight: 700;
+  line-height: 1.2499999832;
+  color: #0b0909;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .profile_details .career_details {
+  width: 15.3rem;
+  height: 4rem;
+  position: absolute;
+  left: 12.4rem;
+  top: 25.4rem;
+  overflow: hidden;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.5;
+  color: rgba(10, 9, 8, 0.5);
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+.resume_page .auto_group .profile_details .social_media_icons {
+  width: 29.6rem;
+  height: 6.1662rem;
+  position: absolute;
+  left: 5.8rem;
+  top: 30rem;
+  display: flex;
+  align-items: center;
+}
+.resume_page .auto_group .profile_details .social_media_icons .facebook {
+  margin: 0rem 0.909rem 0.047rem 0rem;
+  width: 6.0031rem;
+  height: 6.1188rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.8269rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .profile_details .social_media_icons .linkedin {
+  margin: 0rem 0.909rem 0.047rem 0rem;
+  width: 6.9457rem;
+  height: 6.1188rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.8269rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .profile_details .social_media_icons .twitter {
+  margin-right: 0.9098rem;
+  width: 6.9773rem;
+  height: 6.1662rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.8269rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .profile_details .social_media_icons .github {
+  margin-bottom: 0.0883rem;
+  width: 6.9453rem;
+  height: 6.0779rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.8269rem;
+  flex-shrink: 0;
+}
+
+.resume_page .auto_group .profile_details .phone_group {
+  box-sizing: border-box;
+  padding: 0 0.2rem;
+  width: 25.6rem;
+  height: 6.35rem;
+  position: absolute;
+  left: 6.1rem;
+  top: 41.75rem;
+  border-bottom: solid 0.1rem rgba(205, 205, 205, 0.5);
+}
+.resume_page .auto_group .profile_details .phone_group .phone_box {
+  width: 15.5rem;
+  height: 4.4rem;
+  display: flex;
+  align-items: center;
+}
+.resume_page .auto_group .profile_details .phone_group .phone_box .phone_src {
+  margin-right: 1rem;
+  width: 4.4rem;
+  height: 4.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .profile_details .phone_group .phone_box .phone_details {
+  margin: 1.2rem 0rem 0.45rem 0rem;
+  width: 10.1rem;
+  height: calc(100% - 1.65rem);
+  position: relative;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .profile_details .phone_group .phone_box .phone_details .phone_name {
+  width: 4.3rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .profile_details .phone_group .phone_box .phone_details .phone_number {
+  width: 10.1rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4285714286;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .profile_details .email_group {
+  box-sizing: border-box;
+  padding-left: 0.1rem;
+  width: 30.2rem;
+  height: 6.4rem;
+  position: absolute;
+  left: 5.8rem;
+  top: 49.6rem;
+  border-bottom: solid 0.1rem rgba(205, 205, 205, 0.5);
+}
+.resume_page .auto_group .profile_details .email_group .email_box {
+  width: 100%;
+  height: 4.1359rem;
+  display: flex;
+  align-items: flex-end;
+}
+.resume_page .auto_group .profile_details .email_group .email_box .email_src {
+  margin-right: 1.2rem;
+  width: 4.4rem;
+  height: 4.1359rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .profile_details .email_group .email_box .email_details {
+  margin-bottom: 0.1359rem;
+  width: 24.5rem;
+  height: 2.75rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .profile_details .email_group .email_box .email_details .email-vvm {
+  width: 3.7rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .profile_details .email_group .email_box .email_details .tinotendamanhandogmailcom {
+  width: 24.5rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4285714286;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .profile_details .location_group {
+  box-sizing: border-box;
+  padding: 0 0.15rem;
+  width: 25.6rem;
+  height: 6.7rem;
+  position: absolute;
+  left: 5.9rem;
+  top: 57.5rem;
+  border-bottom: solid 0.1rem rgba(205, 205, 205, 0.5);
+}
+.resume_page .auto_group .profile_details .location_group .location_box {
+  width: 14.85rem;
+  height: 4.35rem;
+  display: flex;
+  align-items: flex-end;
+}
+.resume_page .auto_group .profile_details .location_group .location_box .location_src {
+  margin-right: 1rem;
+  width: 4.35rem;
+  height: 4.35rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .profile_details .location_group .location_box .location_details {
+  margin-bottom: 0.35rem;
+  width: 9.5rem;
+  height: 2.75rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .profile_details .location_group .location_box .location_details .location_name {
+  width: 5.8rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .profile_details .location_group .location_box .location_details .place {
+  width: 9.5rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4285714286;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .profile_details .download_details {
+  box-sizing: border-box;
+  padding: 1.2rem 2rem 1.2rem 2.4rem;
+  width: 18.2rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 10.9rem;
+  top: 65.7rem;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(127deg, #FF9C1A 0%, #E80505 100%);
+}
+.resume_page .auto_group .profile_details .download_details .material_symbols_download {
+  margin-right: 1.4rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .profile_details .download_details .download_resume {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #f2f7fc;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 {
+  height: 100%;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .navbar {
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  padding: 1rem 3.2rem 1rem 3.1rem;
+  width: 50.3rem;
+  height: 10rem;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
+  background-color: #f2f7fc;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  column-gap: 4rem;
+  align-items: center;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .home_card {
+  box-sizing: border-box;
+  padding: 1.6rem 2.2rem 2rem 2.3rem;
+  width: 8rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #e1e7ef;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .home_card .home_name {
+  box-sizing: border-box;
+  padding-top: 0.15rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .home_card .home_name .home_icon_src {
+  margin-bottom: 0.3rem;
+  width: 2.25rem;
+  height: 1.95rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .home_card .home_name .homeName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .resume_card {
+  box-sizing: border-box;
+  padding: 1.3rem 1.6rem 2.3rem 1.7rem;
+  width: 8rem;
+  height: 100%;
+  border-radius: 20px;
+background: linear-gradient(127deg, #FF9C1A 0%, #E80505 100%);
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .resume_card .resume_box {
+  box-sizing: border-box;
+  padding-top: 0.2rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .resume_card .resume_box .resume-icon_src {
+  margin-bottom: 0.2rem;
+  width: 1.6rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .resume_card .resume_box .resumeName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #f2f7fc;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .work_card {
+  box-sizing: border-box;
+  padding: 1.4rem 2.4rem 2rem 2.5rem;
+  width: 8rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #e1e7ef;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .work_card .work_box {
+  box-sizing: border-box;
+  padding-top: 0.2rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .work_card .work_box .work-icon_src {
+  margin-bottom: 0.5rem;
+  width: 2rem;
+  height: 1.9rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .work_card .work_box .work_name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .contact-card {
+  box-sizing: border-box;
+  padding: 1.6rem 1.8rem 2rem 1.7rem;
+  width: 8rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #e1e7ef;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .contact-card .contact-box {
+  box-sizing: border-box;
+  padding-top: 0.2rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .contact-card .contact-box .contact-icon-src {
+  margin-bottom: 0.2rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .navbar .nav_cards .contact-card .contact-box .contact-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section {
+  margin-right: 0.2rem;
+  width: 82rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 {
+  box-sizing: border-box;
+  padding: 2.8rem 11.107rem 3.586rem 7.2rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .resume-heading {
+  margin: 0rem 18.393rem 2.3rem 0rem;
+  width: calc(100% - 18.393rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .resume-heading .resume-name {
+  margin-right: 3.1rem;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.1rem;
+  color: #0b0909;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .resume-heading .line {
+  width: 25.2rem;
+  height: 0.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .education-experience-heading {
+  margin: 0rem 9.796rem 2.1rem 0rem;
+  width: calc(100% - 9.7961rem);
+  height: 4.7rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .education-experience-heading .education-heading {
+  margin-right: 15.9rem;
+  box-sizing: border-box;
+  padding-left: 0.1156rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .education-experience-heading .education-heading .icon-park-outline-src {
+  margin: 0rem 1.153rem 0.001rem 0rem;
+  width: 2.4297rem;
+  height: 1.7336rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .education-experience-heading .education-heading .education-name {
+  font-size: 2.7737rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  letter-spacing: 0.0693rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .education-experience-heading .experience-heading {
+  box-sizing: border-box;
+  padding-left: 0.4621rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .education-experience-heading .experience-heading .humbleicons-briefcase {
+  margin: 0.001rem 1.387rem 0rem 0rem;
+  width: 1.8492rem;
+  height: 1.8492rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .education-experience-heading .experience-heading .experience-name {
+  font-size: 2.7737rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  letter-spacing: 0.0693rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group2 {
+  margin-bottom: 2.4rem;
+  width: 100%;
+  height: 11.5572rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group2 .moringa-card {
+  margin-right: 5.907rem;
+  box-sizing: border-box;
+  padding: 2.427rem 0.925rem 2.381rem 0.925rem;
+  width: 28.893rem;
+  height: 100%;
+  background-color: #ffe3bf;
+  border-radius: 0.9246rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group2 .moringa-card .moringa-details {
+  width: 15.6rem;
+  height: 100%;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group2 .moringa-card .moringa-details .period1 {
+  margin-bottom: 0.8246rem;
+  font-size: 1.3869rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group2 .moringa-card .moringa-details .course1 {
+  margin-bottom: 0.8244rem;
+  font-size: 1.3869rem;
+  font-weight: 600;
+  line-height: 1.175;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group2 .moringa-card .moringa-details .school1 {
+  font-size: 1.3869rem;
+  font-weight: 500;
+  line-height: 1.175;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group2 .technical-mentor {
+  box-sizing: border-box;
+  padding: 2.427rem 0.925rem 2.381rem 0.925rem;
+  width: 28.893rem;
+  height: 100%;
+  background-color: #ffeed9;
+  border-radius: 0.9246rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group2 .technical-mentor .technical-mentor-details {
+  width: 11.4rem;
+  height: 100%;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group2 .technical-mentor .technical-mentor-details .period2 {
+  margin-bottom: 0.8246rem;
+  font-size: 1.3869rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group2 .technical-mentor .technical-mentor-details .course2 {
+  margin-bottom: 0.8244rem;
+  font-size: 1.3869rem;
+  font-weight: 600;
+  line-height: 1.175;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group2 .technical-mentor .technical-mentor-details .school2 {
+  font-size: 1.3869rem;
+  font-weight: 500;
+  line-height: 1.175;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group5 {
+  width: 100%;
+  height: 11.5572rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group5 .masinde-card {
+  margin-right: 5.907rem;
+  box-sizing: border-box;
+  padding: 2.427rem 0.925rem 2.381rem 0.925rem;
+  width: 28.893rem;
+  height: 100%;
+  background-color: #ffeed9;
+  border-radius: 0.9246rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group5 .masinde-card .university-details2 {
+  width: 17.4rem;
+  height: 100%;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group5 .masinde-card .university-details2 .period3 {
+  margin-bottom: 0.8246rem;
+  font-size: 1.3869rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group5 .masinde-card .university-details2 .course3 {
+  margin-bottom: 0.8244rem;
+  font-size: 1.3869rem;
+  font-weight: 600;
+  line-height: 1.175;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group5 .masinde-card .university-details2 .school3 {
+  font-size: 1.3869rem;
+  font-weight: 500;
+  line-height: 1.175;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group5 .village-2-nation {
+  box-sizing: border-box;
+  padding: 2.427rem 0.925rem 2.381rem 0.925rem;
+  width: 28.893rem;
+  height: 100%;
+  background-color: #ffe3bf;
+  border-radius: 0.9246rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group5 .village-2-nation .moringa-details2 {
+  width: 15.1rem;
+  height: 100%;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group5 .village-2-nation .moringa-details2 .period4 {
+  margin-bottom: 0.8246rem;
+  font-size: 1.3869rem;
+  font-weight: 400;
+  line-height: 1.175;
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group5 .village-2-nation .moringa-details2 .course4 {
+  margin-bottom: 0.8244rem;
+  font-size: 1.3869rem;
+  font-weight: 600;
+  line-height: 1.175;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .auto_group1 .resume-section .auto-group3 .education-experience-details .auto-group5 .village-2-nation .moringa-details2 .school4 {
+  font-size: 1.3869rem;
+  font-weight: 500;
+  line-height: 1.175;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section {
+  box-sizing: border-box;
+  padding: 0rem 12.9rem 0rem 7.2rem;
+  width: 100%;
+  height: 25rem;
+  background-color: #f8fbfb;
+  border-radius: 0 0 0.8rem 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- {
+  width: 100%;
+  height: 22.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .auto_group7 {
+  margin: 0rem 13.3rem 0.8rem 0rem;
+  width: calc(100% - 13.3rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .auto_group7 .work-skills {
+  margin-right: 19.2rem;
+  font-size: 2.7737rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  letter-spacing: 0.0693rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .auto_group7 .soft-skills {
+  font-size: 2.7737rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  letter-spacing: 0.0693rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group8 {
+  margin: 0rem 0rem 1.3rem 0.1rem;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group8 .work-expertise-1 {
+  margin-right: 3.5rem;
+  width: 5.9rem;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group8 .work-expertise-2 {
+  margin-right: 3.5rem;
+  width: 6.1rem;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group8 .work-expertise-3 {
+  margin-right: 9.6rem;
+  width: 6.1rem;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group8 .work-expertise-4 {
+  margin-right: 1.9rem;
+  width: 12.5rem;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group8 .work-expertise-5 {
+  width: 8.1rem;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group9 {
+  margin: 0rem 0rem 0.7rem 0.1rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group9 .work-expertise-6 {
+  margin-right: 2.5rem;
+  width: 5rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group9 .work-expertise-7 {
+  margin-right: 2.5rem;
+  width: 9rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group9 .work-expertise-8 {
+  margin-right: 10.5rem;
+  width: 5.2rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group9 .work-expertise-9 {
+  margin: 0.6rem 2.1rem 0rem 0rem;
+  width: 17.9rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group9 .work-expertise-10 {
+  margin-top: 0.6rem;
+  width: 7.1rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group10 {
+  margin-bottom: 0.1rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group10 .work-expertise-11w {
+  margin-right: 1.9rem;
+  width: 7.6rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group10 .work-expertise-12 {
+  margin-right: 1.9rem;
+  width: 7.7rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group10 .work-expertise-13 {
+  margin-right: 11.7rem;
+  width: 4rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group10 .work-expertise-14 {
+  margin: 1.2rem 1.9rem 0rem 0rem;
+  width: 7rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group10 .work-expertise-15 {
+  margin-top: 1.2rem;
+  width: 5.8rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group11 {
+  height: 3.2rem;
+  display: flex;
+  column-gap: 3.3rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group11 .work-expertise-16 {
+  width: 6.2rem;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group11 .work-expertise-17 {
+  width: 6.2rem;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.resume_page .auto_group .auto_group1 .resume-section .skills-section .work-soft-skills- .skills-box .auto-group11 .work-expertise-18 {
+  width: 3.2rem;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.024rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e8ef;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}

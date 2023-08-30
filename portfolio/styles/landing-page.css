@@ -1,0 +1,901 @@
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.landing_page {
+  box-sizing: border-box;
+  padding: 4.2rem 9.8rem 5rem 10rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #f2f5f9;
+}
+.landing_page .header {
+  margin: 0rem 0.2rem 6.6rem 0rem;
+  width: calc(100% - 0.2rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.landing_page .header .tinotenda_manhando {
+  margin: 0.1rem 100.1rem 0rem 0rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.756000042;
+  color: #000000;
+  font-family: Pacifico, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.landing_page .header .tinotenda_manhando .tinotenda_manhando-sub-0 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.755;
+  color: #000000;
+  font-family: Pacifico, 'Source Sans Pro';
+}
+.landing_page .header .tinotenda_manhando .tinotenda_manhando-sub-1 {
+  background: linear-gradient(180deg, #FF9C1A 0%, #ED250A 100%);
+  background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.755;
+  color: #000000;
+  font-family: Pacifico, 'Source Sans Pro';
+}
+.landing_page .header .tinotenda_manhando .tinotenda_manhando-sub-2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.755;
+  color: #000000;
+  font-family: Pacifico, 'Source Sans Pro';
+}
+.landing_page .header .ph-moon {
+  width: 5.6rem;
+  height: 5.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 5rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group {
+  width: 100%;
+  height: 81rem;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .profile_details {
+  margin-right: 2rem;
+  width: 40rem;
+  height: 80rem;
+  position: relative;
+  box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0);
+  flex-shrink: 0;
+}
+.landing_page .auto_group .profile_details .profile_card {
+  width: 40rem;
+  height: 70rem;
+  position: absolute;
+  left: 0;
+  top: 10rem;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+.landing_page .auto_group .profile_details .contact_card {
+  width: 35rem;
+  height: 35rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 38.4rem;
+  background-color: #f2f5f9;
+  border-radius: 2rem;
+}
+.landing_page .auto_group .profile_details .profile_picture {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  left: 9.2rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 2rem;
+}
+.landing_page .auto_group .profile_details .name {
+  width: 23.5rem;
+  height: 3.6rem;
+  position: absolute;
+  left: 8.3rem;
+  top: 21.4rem;
+  overflow: hidden;
+  font-size: 2.842rem;
+  font-weight: 700;
+  line-height: 1.2499999832;
+  color: #0b0909;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing_page .auto_group .profile_details .career_details {
+  width: 15.3rem;
+  height: 4rem;
+  position: absolute;
+  left: 12.4rem;
+  top: 25.4rem;
+  overflow: hidden;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.5;
+  color: rgba(10, 9, 8, 0.5);
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+.landing_page .auto_group .profile_details .social_media_icons {
+  width: 29.6rem;
+  height: 6.1662rem;
+  position: absolute;
+  left: 5.8rem;
+  top: 30rem;
+  display: flex;
+  align-items: center;
+}
+.landing_page .auto_group .profile_details .social_media_icons .auto_group2 {
+  box-sizing: border-box;
+  padding-right: 0.9094rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .profile_details .social_media_icons .auto_group2 .facebook_LP {
+  margin: 0rem 0.909rem 0.047rem 0rem;
+  width: 6.0031rem;
+  height: 6.1188rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.8269rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .profile_details .social_media_icons .auto_group2 .linkedin {
+  margin-bottom: 0.0475rem;
+  box-sizing: border-box;
+  padding: 2.067rem 2.481rem 2.067rem 2.48rem;
+  height: calc(100% - 0.0475rem);
+  background-color: #f2f7fc;
+  border-radius: 0.8269rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .profile_details .social_media_icons .auto_group2 .linkedin .linkedin_LP {
+  width: 1.9844rem;
+  height: 1.9846rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.8269rem;
+}
+.landing_page .auto_group .profile_details .social_media_icons .twitter {
+  margin-right: 0.9098rem;
+  box-sizing: border-box;
+  padding: 2.067rem 2.481rem 2.067rem 2.48rem;
+  height: 100%;
+  background-color: #f2f7fc;
+  border-radius: 0.8269rem;
+  flex-shrink: 0;
+}
+
+.landing_page .auto_group .profile_details .social_media_icons .twitter .twitter_LP {
+  width: 2.016rem;
+  height: 2.0318rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.landing_page .auto_group .profile_details .social_media_icons .github {
+  margin-bottom: 0.0883rem;
+  box-sizing: border-box;
+  padding: 2.0672rem 2.4805rem;
+  height: 6.0779rem;
+  background-color: #f2f7fc;
+  border-radius: 0.8269rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .profile_details .social_media_icons .github .github_LP {
+  width: 1.9844rem;
+  height: 1.9436rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.landing_page .auto_group .profile_details .phone_group {
+  box-sizing: border-box;
+  padding: 0 0.2rem;
+  width: 25.6rem;
+  height: 6.35rem;
+  position: absolute;
+  left: 6.1rem;
+  top: 41.75rem;
+  border-bottom: solid 0.1rem #e3e3e3;
+}
+.landing_page .auto_group .profile_details .phone_group .phone_11 {
+  width: 15.5rem;
+  height: 4.4rem;
+  display: flex;
+  align-items: center;
+}
+.landing_page .auto_group .profile_details .phone_group .phone_11 .phone_12 {
+  margin-right: 1rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 100%;
+  background-color: #f2f7fc;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .profile_details .phone_group .phone_11 .phone_12 .gridicons_phone {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.8269rem;
+}
+.landing_page .auto_group .profile_details .phone_group .phone_11 .phone_details {
+  margin: 1.2rem 0rem 0.45rem 0rem;
+  width: 10.1rem;
+  height: calc(100% - 1.65rem);
+  position: relative;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .profile_details .phone_group .phone_11 .phone_details .phone_LP {
+  width: 4.3rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing_page .auto_group .profile_details .phone_group .phone_11 .phone_details .contact {
+  width: 10.1rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4285714286;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing_page .auto_group .profile_details .email_group {
+  box-sizing: border-box;
+  padding-left: 0.1rem;
+  width: 30.2rem;
+  height: 6.4rem;
+  position: absolute;
+  left: 5.8rem;
+  top: 49.6rem;
+  border-bottom: solid 0.1rem #e3e3e3;
+}
+.landing_page .auto_group .profile_details .email_group .email_details {
+  width: 100%;
+  height: 4.1359rem;
+  display: flex;
+  align-items: flex-end;
+}
+.landing_page .auto_group .profile_details .email_group .email_details .email {
+  margin-right: 1.2rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 100%;
+  background-color: #f2f7fc;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .profile_details .email_group .email_details .email .email_open_outline {
+  width: 2.4rem;
+  height: 2.1359rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.8269rem;
+}
+.landing_page .auto_group .profile_details .email_group .email_details .email_details2 {
+  margin-bottom: 0.1359rem;
+  width: 24.5rem;
+  height: 2.75rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .profile_details .email_group .email_details .email_details2 .email2 {
+  width: 3.7rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing_page .auto_group .profile_details .email_group .email_details .email_details2 .tinotendamanhandogmailcom {
+  width: 24.5rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4285714286;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing_page .auto_group .profile_details .location {
+  box-sizing: border-box;
+  padding: 0 0.15rem;
+  width: 25.6rem;
+  height: 6.7rem;
+  position: absolute;
+  left: 5.9rem;
+  top: 57.5rem;
+  border-bottom: solid 0.1rem #e3e3e3;
+}
+.landing_page .auto_group .profile_details .location .location_2 {
+  width: 14.85rem;
+  height: 4.35rem;
+  display: flex;
+  align-items: flex-end;
+}
+.landing_page .auto_group .profile_details .location .location_2 .location_3 {
+  margin-right: 1rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 100%;
+  background-color: #f2f7fc;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .profile_details .location .location_2 .location_3 .location_outline {
+  width: 2.35rem;
+  height: 2.35rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.8269rem;
+}
+.landing_page .auto_group .profile_details .location .location_2 .location_details {
+  margin-bottom: 0.35rem;
+  width: 9.5rem;
+  height: 2.75rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .profile_details .location .location_2 .location_details .location_4 {
+  width: 5.8rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing_page .auto_group .profile_details .location .location_2 .location_details .nairobi-kenya-Cky {
+  width: 9.5rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4285714286;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing_page .auto_group .profile_details .download_details {
+  box-sizing: border-box;
+  padding: 1.2rem 2rem 1.2rem 2.4rem;
+  width: 18.5rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 10.7rem;
+  top: 65.7rem;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(127deg, #FF9C1A 0%, #E80505 100%);
+}
+.landing_page .auto_group .profile_details .download_details .material_symbols {
+  margin-right: 1.4rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .profile_details .download_details .download_resume {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #f2f7fc;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 {
+  height: 100%;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .navbar {
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  padding: 1rem 3.2rem 1rem 3.1rem;
+  width: 50.3rem;
+  height: 10rem;
+  background-color: #f2f7fc;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  column-gap: 4rem;
+  align-items: center;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .home_card {
+  box-sizing: border-box;
+  padding: 1.6rem 2.2rem 2rem 2.3rem;
+  width: 8rem;
+  height: 100%;
+  border-radius: 20px;
+  background: linear-gradient(127deg, #FF9C1A 0%, #E80505 100%);
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .home_card .home_c {
+  box-sizing: border-box;
+  padding-top: 0.15rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .home_card .home_c .home_icon {
+  margin-bottom: 0.3rem;
+  width: 2.25rem;
+  height: 1.95rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .home_card .home_c .home {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .resume_card {
+  box-sizing: border-box;
+  padding: 1.3rem 1.6rem 2rem 1.7rem;
+  width: 8rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #e1e7ef;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .resume_card .resume_c {
+  box-sizing: border-box;
+  padding-top: 0.2rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .resume_card .resume_c .resume_icon {
+  margin-bottom: 0.5rem;
+  width: 1.6rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .resume_card .resume_c .resume {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .work_card {
+  box-sizing: border-box;
+  padding: 1.4rem 2.4rem 2rem 2.5rem;
+  width: 8rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #e1e7ef;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .work_card .work_c {
+  box-sizing: border-box;
+  padding-top: 0.2rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .work_card .work_c .work_icon {
+  margin-bottom: 0.5rem;
+  width: 2rem;
+  height: 1.9rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .work_card .work_c .work {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .contact_card {
+  box-sizing: border-box;
+  padding: 1.6rem 1.8rem 2rem 1.7rem;
+  width: 8rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #e1e7ef;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .contact_card .contact_c {
+  box-sizing: border-box;
+  padding-top: 0.2rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .contact_card .contact_c .contact_icon {
+  margin-bottom: 0.2rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .navbar .nav_cards .contact_card .contact_c .contact {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section {
+  margin-right: 0.2rem;
+  box-sizing: border-box;
+  padding: 2.8rem 5.4rem 3.2rem 7.3rem;
+  width: 82rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .about_me_heading {
+  margin: 0rem 19.8rem 2.4rem 0.05rem;
+  width: calc(100% - 19.85rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .about_me_heading .about_me {
+  margin-right: 3.25rem;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.1rem;
+  color: #0b0909;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .about_me_heading .line_5 {
+  width: 25.2rem;
+  height: 0.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .Statement_1 {
+  margin: 0rem 0.2rem 2.6rem 0rem;
+  max-width: 67.5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.875;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .what_I_do {
+  margin: 0rem 50.5rem 2.8rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.08rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group4 {
+  margin-bottom: 2.4rem;
+  width: 100%;
+  height: 16.9rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group4 .web_development {
+  margin-right: 2.7rem;
+  box-sizing: border-box;
+  padding: 1.2rem 2.4rem 1.3rem 2.5rem;
+  width: 33.3rem;
+  height: 100%;
+  background-color: #ffebd1;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group4 .web_development .web_development_details {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group4 .web_development .web_development_details .web_development_heading {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 0.2rem 0rem 0.2rem 0.158rem;
+  width: calc(100% - 2.4rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group4 .web_development .web_development_details .web_development_heading .code_icon {
+  margin-right: 1.1582rem;
+  width: 2.084rem;
+  height: 1.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group4 .web_development .web_development_details .web_development_heading .web_development_phrase {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 0.8333333333;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group4 .web_development .web_development_details .statement_2 {
+  max-width: 28.4rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  letter-spacing: 0.035rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group4 .app_development_section {
+  box-sizing: border-box;
+  padding: 1.2rem 3rem 1.3rem 2.9rem;
+  width: 33.3rem;
+  height: 100%;
+  background-color: #f2f7fc;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group4 .app_development_section .app_details {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group4 .app_development_section .app_details .app_development_heading {
+  margin-right: 1.8rem;
+  width: calc(100% - 1.8rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group4 .app_development_section .app_details .app_development_heading .app {
+  margin-right: 1.1rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group4 .app_development_section .app_details .app_development_heading .app_development {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 0.8333333333;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group4 .app_development_section .app_details .statement_3 {
+  max-width: 27.4rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  letter-spacing: 0.035rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group5 {
+  width: 100%;
+  height: 16.9rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group5 .ui_ux_section {
+  margin-right: 2.7rem;
+  box-sizing: border-box;
+  padding: 2.4rem 1.4rem 2.5rem 1.8rem;
+  width: 33.3rem;
+  height: 100%;
+  background-color: #f2f7fc;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group5 .ui_ux_section .ui_ux_details {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group5 .ui_ux_section .ui_ux_details .ui_ux_heading {
+  margin-right: 5.8rem;
+  box-sizing: border-box;
+  padding-left: 0.3rem;
+  width: calc(100% - 5.8rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group5 .ui_ux_section .ui_ux_details .ui_ux_heading .ux_icon {
+  margin-right: 1.6rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group5 .ui_ux_section .ui_ux_details .ui_ux_heading .ui_ux_designing {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  letter-spacing: 0.06rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group5 .ui_ux_section .ui_ux_details .statement_4 {
+  max-width: 30.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  letter-spacing: 0.035rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group5 .mentorship {
+  box-sizing: border-box;
+  padding: 1.4rem 2.4rem 1.5rem 2.5rem;
+  width: 33.3rem;
+  height: 100%;
+  background-color: #ffebd1;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group5 .mentorship .mentorship_details {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group5 .mentorship .mentorship_details .mentorship_heading {
+  margin-right: 10.1rem;
+  width: calc(100% - 10.1rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group5 .mentorship .mentorship_details .mentorship_heading .mentorship_icon {
+  margin-right: 0.8rem;
+  width: 3rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group5 .mentorship .mentorship_details .mentorship_heading .mentorship_state {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  letter-spacing: 0.06rem;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing_page .auto_group .auto_group3 .about_me_section .auto_group5 .mentorship .mentorship_details .statement_4 {
+  max-width: 28.4rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  letter-spacing: 0.035rem;
+  color: #000000;
+  font-family: Raleway, 'Source Sans Pro';
+  flex-shrink: 0;
+}
